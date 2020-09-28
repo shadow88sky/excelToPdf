@@ -28,7 +28,7 @@ app.post('/upload', async (req, res) => {
             ErrorMsg: '',
             ErrorCode: '',
             Data: {
-                FilePath: `http://122.51.178.83:7878/${fileName}.pdf`
+                FilePath: `http://xxx.xxxx:7878/${fileName}.pdf`
             }
         })
     } catch (err) {
